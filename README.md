@@ -16,7 +16,7 @@ Next, we will tell the application to auto load the bundle. In your application/
 'qr' => array('auto' => true),
 ```
 
-Or, we could manually start the bundle wherever we needed to use it by adding the following line:
+Or, if we set 'auto' to `false`, we could manually start the bundle wherever we needed to use it by adding the following line:
 
 ```PHP
 Bundle::start('qr');
